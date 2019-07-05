@@ -22,9 +22,11 @@ function calc() {
     alert ("Unable to Convert same Units");
   } else if (convertFrom == "ft" && convertTo == "ft") {
     alert ("Unable to Convert same Units");
-  }
+  } 
+  
 
 
   console.log(answer)
-  document.getElementById("results").innerHTML = answer.toFixed(0);
+  document.getElementById("results").innerHTML = answer.toFixed(2);
+  
 }

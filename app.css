@@ -15,12 +15,24 @@ html {
   color: rgb(66, 32, 9);
   max-width: 100%;
   margin-left: 0px;
+  padding: 10px;
 }
 
-.container #unit1 {
-  margin-right: 2px;
+.container #input::placeholder {
+  color: rgb(214, 224, 224)
 }
 
+
+
+.form #unit {
+  font-size: 16px;
+  height: 40px;
+}
+
+.form #unit1 {
+  font-size: 16px;
+  height: 40px;
+}
 
 h1 {
   text-align: center;
@@ -32,7 +44,7 @@ h1 {
 .form {
   max-width: 100%;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
   margin: 15px;
   font-size: 15px;
 }
@@ -53,9 +65,10 @@ p {
   background-color: rgb(187, 196, 204);
   color: rgb(31, 26, 26);
   font-weight: bold;
+  box-shadow: 0px 4px 4px 0px
 }
 
 #button:hover {
-  background-color: darkslategray;
-  color: white;
+  background-color: rgb(23, 133, 65);
+  
 }
