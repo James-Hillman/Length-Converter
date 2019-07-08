@@ -19,8 +19,20 @@ html {
 
 .container #unit1 {
   margin-right: 2px;
+  
 }
 
+#unit1 {
+  width: 120px;
+  height: 40px;
+  text-align: center;
+}
+
+#unit {
+  width: 120px;
+  height: 40px;
+  text-align: center;
+}
 
 h1 {
   text-align: center;

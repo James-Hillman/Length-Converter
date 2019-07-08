@@ -9,8 +9,8 @@ function calc() {
   const ft = "ft";
   let answer;
   let end;
-  
-  
+
+    
 
   //Formulas for each conversion type
     if (convertFrom == "mm" && convertTo == "cm") {
@@ -37,13 +37,20 @@ function calc() {
     end = mm;
   } if (convertTo == "ft") {
     end = ft;
+  } if (input === "") {
+    alert("Please Enter a Value");
+    answer = "";
   } 
   
+
   console.log()
   document.getElementById("results").innerHTML = answer.toFixed(2);
   document.getElementById("resultsAb").innerHTML = end;
-  document.getElementById("#input").reset();
   
-  
+
+}
+
+function refreshDiv() {
+  input.value = ""
 }
 
