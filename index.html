@@ -7,36 +7,44 @@
     <link rel="stylesheet" href="app.css" />
     <title>Unit Converter</title>
   </head>
-  <body>
+    <body>
     <div class="container">
-    <h1>LENGTH CONVERTER</h1>
+      <h1>LENGTH CONVERTER</h1>
 
-    <!-- Form 1 -->
-    <div class="form">
-      <form class="form">
-        <select id="unit1" class="form">
-          <option value="mm">Millimeters</option>
-          <option value="cm">Centimeters</option>
-          <option value="ft">Feet</option>
-        </select><input id="input" type="text" class="form" />
+      <!-- Form 1 -->
+      <div class="form">
+        <form class="form">
+          <select id="unit1" class="form">
+            <option value="mm">Millimeters</option>
+            <option value="cm">Centimeters</option>
+            <option value="ft">Feet</option>
+          </select>
+          <!-- Input Field-->
+          <input
+            id="input"
+            type="text"
+            class="form"
+            placeholder="Enter Length"
+          />
 
-        <p>Convert to:</p>
+          <p>Convert to:</p>
 
-        <!-- Form 2 -->
-        <select id="unit" class="form">
-          <option value="mm">Millimeters</option>
-          <option value="cm">Centimeters</option>
-          <option value="ft">Feet</option>
-        </select>
-      </form>
+          <!-- Form 2 -->
+          <select id="unit" class="form">
+            <option value="mm">Millimeters</option>
+            <option value="cm">Centimeters</option>
+            <option value="ft">Feet</option>
+          </select>
+        </form>
 
+        <button type="reset" class="form" id="button" onclick="calc()">
+          Click to Convert
+        </button>
 
-      <button type="button" class="form" id="button" onclick="calc()">
-        Click to Convert
-      </button>
-      <div id="results" class="form"></div>
+        <div id="results" class="form"></div>
+        <div class="ab" id="resultsAb"></div>
+      </div>
     </div>
-  </div>
   </body>
   <script src="app.js"></script>
 </html>

@@ -12,7 +12,7 @@ html {
 
 .container #input {
   font-weight: bold;
-  color: rgb(66, 32, 9);
+  color: rgb(88, 68, 55);
   max-width: 100%;
   margin-left: 0px;
 }
@@ -48,14 +48,27 @@ p {
   font-family: Maven Pro;
 }
 
+#resultsAb {
+  font-family: Maven Pro;
+  font-size: 22px;
+}
+
 #button {
   width: 150px;
   background-color: rgb(187, 196, 204);
   color: rgb(31, 26, 26);
   font-weight: bold;
+  box-shadow: 0px 4px 6px 0px;
 }
 
 #button:hover {
   background-color: darkslategray;
   color: white;
+  box-shadow: 0px 4px 6px 0px;
+}
+
+.copy {
+  max-width: 100%;
+  color:darkgray;
+  
 }
