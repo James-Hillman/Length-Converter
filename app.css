@@ -24,19 +24,21 @@ html {
 
 .container #unit1 {
   margin-right: 2px;
-  
+   
 }
 
 #unit1 {
   width: 120px;
   height: 40px;
   text-align: center;
+  cursor: pointer;
 }
 
 #unit {
   width: 120px;
   height: 40px;
   text-align: center;
+  cursor: pointer;
 }
 
 h1 {
@@ -76,12 +78,13 @@ p {
   color: rgb(31, 26, 26);
   font-weight: bold;
   box-shadow: 0px 4px 6px 0px;
+  
 }
 
 #button:hover {
   background-color: darkslategray;
   color: white;
-  
+  cursor: pointer;
 }
 
 .copy {
