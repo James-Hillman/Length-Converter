@@ -90,6 +90,7 @@ function calc() {
   document.getElementById("resultsAb").innerHTML = end;
   
 }
+
 function refreshDiv() {
   input.value = ""
 }
